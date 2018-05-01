@@ -27,9 +27,10 @@ describe('Lambda School Precourse Assessment', () => {
       expect(lambdaSchool(1000)).toBe('School');
     });
     it('should return \'Lambda School\' for a number divisible by 3 and 5', () => {
-      expect(lambdaSchool(15)).toBe('Lambda School');
+      
       expect(lambdaSchool(30)).toBe('Lambda School');
       expect(lambdaSchool(180)).toBe('Lambda School');
+     expect(lambdaSchool(15)).toBe('Lambda School');
     });
   }); 
 
